@@ -149,23 +149,83 @@ p {
       @media screen and (max-width: 600px) {
 
 
-        body {
-            background-color: black;
-            margin: 0;
-            padding: 0; 
-        }
         .navbar {
+            background-color: black;
+            color: white;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 310px;
+            display: flex;
+            justify-content: space-between;
             align-items: center;
-            text-align: center;
             flex-direction: column;
-            margin-bottom: 300px;
-            margin-top: 0;
-            width: auto;
+            height: 30px;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+            height: 100px;
+            border-bottom: #00FFFF 1px solid;
+        
         }
-
+        
+        
+        .item a{
+            list-style: none;
+            padding: 0;
+            list-style: none;  
+            text-decoration: none; 
+            padding-bottom: 15px;
+            color: white;
+            font-size: 17px;
+            font-weight: 550;
+            font-family: 'Roboto', sans-serif;    
+        }   
+        
         .list {
-            margin: -40px;
+            list-style: none;
+        }
+        
+        
+        
+        
+        
+        .menu ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            margin-right: 0;
+            margin-top: 0;
+            padding: 5px;
+            }   
+        
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: auto;
+            }   
+        
+        
+        
+        
+        .navbar img {
+            height: 120px;   
+            padding: 0 20px;
+            }   
+            
+        
+        .menu ul li {
+            list-style-type: none;
+            text-decoration: none;
+            padding: 10px;  
+            display: flex;
+            border-radius: 6px;
         }
 
+    
       }
       
