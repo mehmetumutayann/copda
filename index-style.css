@@ -99,7 +99,7 @@ body {
     background-color: white;
     margin: 10px;
     width: auto;
-    height: 1000px;  
+    height: 450px;  
     border-radius: 15px;
 }
 
@@ -157,7 +157,10 @@ p {
 
 
         .ana1 h1 {
-        font-size: 100%;    
+            font-size: 30px;
+            text-align: center;
+            align-items: center;
+            padding-top: 200px;
         }
 
         .ana p {
