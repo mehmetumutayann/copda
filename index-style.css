@@ -19,6 +19,7 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     height: 60px;
@@ -100,9 +101,8 @@ body {
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
-    margin: 10px;
     width: auto;
-    height: 600px;  
+    height: 740px;  
     border-radius: 15px;
 }
 
@@ -163,7 +163,8 @@ p {
 
 
         .ana1 {
-            background-image: url(uzay-mobil.gif);
+            background-image: url(uzay-mobil2.gif);
+            
         }
 
         .ana1 h1 {
@@ -193,7 +194,7 @@ p {
             top: 0;
             width: auto;
             z-index: 999;
-            height: 100px;
+            height: 110px;
             border-bottom: none;
         }
         
@@ -213,6 +214,8 @@ p {
         
         .list {
             list-style: none;
+            background-color: black;
+            margin-top: 0;
         }
         
         
