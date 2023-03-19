@@ -21,6 +21,8 @@ body {
 .nedenbiz {
     display: flex;
     justify-content: center;
+    border-bottom: 3px solid #00FFFF;   
+
   }
   
   .icerik1,
@@ -31,6 +33,7 @@ body {
 
   .icerik {
     background-color: black; 
+    
 
   }
 
@@ -38,8 +41,9 @@ body {
     color: white;
     padding: 80px;
     padding-top: 150;
-    margin-top: 140px;
+    margin-top: 125px;
     text-align: left;
+    border-left: 2px solid white; 
 
   }
 
@@ -189,7 +193,7 @@ body {
     background-size: cover;
     background-position: center;
     width: auto;
-    height: 740px;  
+    height: 747px;  
     border-radius: 15px;
 }
 
