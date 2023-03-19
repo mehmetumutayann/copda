@@ -16,18 +16,22 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    padding: 0;
-    margin: 0;
+    position: center;
+    text-align: center;
+    padding: 5px;
+    margin-left: 21.5rem;
     display: flex;
     position: fixed;
     justify-content: space-between;
     align-items: center;
     height: 60px;
     top: 0;
-    width: 100%;
+    width: auto;
     z-index: 999;
     height: 100px;
-    border-bottom: #00FFFF 1px solid;
+    border: #00FFFF 1px solid;
+    margin-top: 20px;
+    border-radius: 40px;
 
 }
 
@@ -40,7 +44,7 @@ body {
     color: white;
     font-size: 17px;
     font-weight: 550;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto Condensed', sans-serif;
 }   
 
 .list {
@@ -196,6 +200,9 @@ p {
             z-index: 999;
             height: 110px;
             border-bottom: none;
+            border-radius: 0px;
+            border-color: none;
+
         }
         
         
@@ -216,6 +223,8 @@ p {
             list-style: none;
             background-color: black;
             margin-top: 0;
+            border: 1px solid #00FFFF;
+            border-top: none; 
         }
         
         
