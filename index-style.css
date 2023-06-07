@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
@@ -188,7 +189,7 @@ body {
 
 
 .ana1 {
-    background-image: url(uzay.gif);
+    background-image: url(/others/uzay.gif);
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
@@ -254,7 +255,7 @@ p {
 
 
         .ana1 {
-            background-image: url(uzay-mobil2.gif);
+            background-image: url(/others/uzay-mobil2.gif);
             
         }
 
