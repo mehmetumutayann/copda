@@ -1,5 +1,5 @@
 document.getElementById("contact-form").addEventListener("submit", function(event) {
-    event.preventDefault(); // Sayfanın yeniden yüklenmesini engeller
+    event.preventDefault(); 
   
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
@@ -7,11 +7,10 @@ document.getElementById("contact-form").addEventListener("submit", function(even
   
     var body = "Ad: " + name + "\nE-posta: " + email + "\n\n" + message;
   
-    // E-posta adresini belirler
     var recipient = "infocopda@gmail.com";
     var subject = "Yeni İletişim Mesajı";
   
     var mailtoLink = "mailto:" + recipient + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
   
     window.location.href = mailtoLink;
-  });
+});

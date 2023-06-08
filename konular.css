@@ -1,50 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
-
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
-
-
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto;
-    max-width: 800px;
-    margin-top: 150px;
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 800px;
+  margin-top: 150px;
+}
   
-  .card {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-  }
+.card {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
   
-  .card img {
-    max-width: 100%;
-    height: auto;
-  }
+.card img {
+  max-width: 100%;
+  height: auto;
+}
   
-  .card h1 {
-    font-size: 20px;
-    padding: 5px;
-    font-family:sans-serif;
-  }
+.card h1 {
+  font-size: 20px;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+}
   
-  .card p {
-    font-size: 14px;
-    padding: 5px;
-    font-family:sans-serif;
-  }
-  .devam{
-    cursor: pointer;
-    
-  }
+.card p {
+  font-size: 16px;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
 
+}
 
+.devam {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
