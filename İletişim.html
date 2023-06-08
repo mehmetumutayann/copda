@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,35 +22,36 @@
     
 </head>
 <body>
-    <!-- navbar burda yapılmıştır -->
-    <nav class="navbar">
-        <a href="index.html" class="logo">
-          <img src="/others/copda-ori-ori.png" alt="Logo">
-        </a>
-        <div class="menu">
-          <ul class="list">
-            <li class="item"><a href="/copda/index.html" >Ana Sayfa</a></li>
-            <li class="item"><a href="/copda/Güncel_Konular.html">Güncel Konular</a></li>
-            <li class="item"><a href="/copda/Araştırmalar.html">Araştırmalar</a></li>
-            <li class="item"><a href="/copda/İletişim.html" class="active">İletişim</a></li>
-          </ul>
-          
-        </div>
-      </nav>
-      <h1>İletişim Formu</h1>
-    <form id="contact-form">
-        <label for="name">Adınız:</label>
-        <input type="text" id="name" name="name" required>
 
-        <label for="email">E-posta Adresiniz:</label>
-        <input type="email" id="email" name="email" required>
+  <nav class="navbar">
+		<a href="index.html" class="logo">
+			<img src="/others/copda-ori-ori.png" alt="Logo">
+		</a>
+		<div class="menu">
+			<ul class="list">
+				<li class="item"><a href="index.html" >Ana Sayfa</a></li>
+				<li class="item"><a href="Güncel_Konular.html">Güncel Konular</a></li>
+				<li class="item"><a href="Araştırmalar.html">Araştırmalar</a></li>
+				<li class="item"><a href="İletişim.html" class="active">İletişim</a></li>
+			</ul>
+		</div>
+	</nav>
 
-        <label for="message">Mesajınız:</label>
-        <textarea id="message" name="message" required></textarea>
+	<h1>İletişim Formu</h1>
+	
+	<form id="contact-form">
+		<label for="name">Adınız:</label>
+		<input type="text" id="name" name="name" required>
 
-        <input type="submit" value="Gönder">
-    </form>
+		<label for="email">E-posta Adresiniz:</label>
+		<input type="email" id="email" name="email" required>
 
-      <script src="script.js"></script>
-      </body>
-      </html>
+		<label for="message">Mesajınız:</label>
+		<textarea id="message" name="message" required></textarea>
+
+		<input type="submit" value="Gönder">
+	</form>
+
+	<script src="script.js"></script>
+</body>
+</html>
