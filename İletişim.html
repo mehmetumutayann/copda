@@ -18,28 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index-style.css">
-    <style>
-        .container{
-            background-color: rgb(0, 0, 0);
-            display: inline-block;
-            height: 30vh;
-            width: 40vw;
-            margin-top: 25vh;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50% , -50%);
-            text-align: center;
-        }
-        .container h1 , ul , ul li , a{
-            margin: 0;
-            color: aliceblue;
-            list-style-type: none;
-           
-        }
-        
-        
-    </style>
+    <link rel="stylesheet" href="iletişim.css">
     
 </head>
 <body>
@@ -57,20 +36,21 @@
           </ul>
           
         </div>
-
-        <!-- iletişim bilgileri burda yazılmıştır -->
-        <div class="container">
-            <h1>İletişim Bilgileri</h1> 
-            <ul>
-                <li style="color: aliceblue;"><strong>.....;</strong></li><br>
-                <li><a target="_blank" href="02128939809">0215 980 06 75</a> </li>     <br>
-                <li><a target="_blank" href="mailto:furkanfc72008@gmail.com">info@ÇözerekÖğren.com</a></li><br>
-                <li><a target="_blank" href="https://www.google.com/maps/place/BA%C5%9EAK%C5%9EEH%C4%B0R+MEHMET+EM%C4%B0N+SARA%C3%87+%C4%B0MAM+HAT%C4%B0P+KAMP%C3%9CS%C3%9C/@41.0998817,28.7877107,15z/data=!4m6!3m5!1s0x14caaf41ab61d93f:0x7c2441ab44506eb2!8m2!3d41.0998817!4d28.7877107!16s%2Fg%2F11dx8_qpz3"><address>Başakşehir, Mimar Kemalattin Blv. No:5, 34480 Başakşehir/İstanbul</address></a></li> <br>
-                <li><a target="_blank" href="https://matematikdelisi.com/"><b> Kaynak Site</b></a></li> <br>
-            </ul>
-            
-        </div>
-
       </nav>
+      <h1>İletişim Formu</h1>
+    <form id="contact-form">
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-posta Adresiniz:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mesajınız:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Gönder">
+    </form>
+
+      <script src="script.js"></script>
       </body>
       </html>
