@@ -102,7 +102,6 @@ p.yazi {
     position: fixed;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
     top: 0;
     width: auto;
     z-index: 999;
