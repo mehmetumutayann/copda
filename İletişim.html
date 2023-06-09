@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa | COPDA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index-style.css">
+    <link rel="stylesheet" href="iletişim.css">
+    
+</head>
+<body>
+
+  <nav class="navbar">
+		<a href="index.html" class="logo">
+			<img src="/others/copda-ori-ori.png" alt="Logo">
+		</a>
+		<div class="menu">
+			<ul class="list">
+				<li class="item"><a href="index.html" >Ana Sayfa</a></li>
+				<li class="item"><a href="Güncel_Konular.html">Güncel Konular</a></li>
+				<li class="item"><a href="Araştırmalar.html">Biz Kimiz?</a></li>
+				<li class="item"><a href="İletişim.html" class="active">İletişim</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<h1>İletişim Formu</h1>
+	
+	<form id="contact-form">
+		<label for="name">Adınız:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">E-posta Adresiniz:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="message">Mesajınız:</label>
+		<textarea id="message" name="message" required></textarea>
+
+		<input type="submit" value="Gönder">
+	</form>
+
+	<script src="script.js"></script>
+</body>
+</html>
